@@ -97,12 +97,11 @@ body {
 
 
 /* Header Container */
-.header__container {
+/* .header__container {
   display: grid;
   overflow: hidden;
 }
 
-/* Header Image */
 .header__image {
   grid-area: 1/1/2/2;
 }
@@ -111,8 +110,7 @@ body {
   max-width: 900px;
   margin-left: auto;
 }
-
-/* Header Content */
+/* Header Content 
 .header__content {
   grid-area: 1/1/2/2;
   display: flex;
@@ -122,20 +120,110 @@ body {
 .header__content > div {
   max-width: 500px;
   padding: 4rem 1rem;
-  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent */
-  backdrop-filter: blur(10px);                /* Blur effect behind */
+  background-color: rgba(255, 255, 255, 0.5); 
+  backdrop-filter: blur(10px);               
 }
 
-/* Header Text */
+/* Header Text 
 .header__content h1 {
   margin-bottom: 1rem;
   font-size: 4rem;
   font-weight: 600;
-  font-family: "Merriweather", serif;       /* Direct font */
-  color: #254d4d;                            /* Direct primary color */
+  font-family: "Merriweather", serif;       
+  color: #254d4d;                      
 }
 
 .header__content p {
   font-size: 1.2rem;
-  color: #737373;                            /* Direct light text color */
+  color: #737373;                        
+} */
+
+
+/* Header Container */
+.header__container {
+  display: grid;
+  overflow: hidden;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Header Image */
+.header__image {
+  grid-area: 1/1/2/2;
+}
+
+.header__image img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+  object-fit: cover;
+}
+
+/* Header Content Overlay */
+.header__content {
+  grid-area: 1/1/2/2;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* text left align */
+  padding-left: 2rem;
+}
+
+.header__content > div {
+  max-width: 500px;
+  padding: 4rem 2rem;
+  background-color: rgba(255, 255, 255, 0.5); /* semi-transparent */
+  backdrop-filter: blur(10px);                /* blur behind */
+}
+
+/* Header Text */
+.header__content h1 {
+  font-family: "Merriweather", serif;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #254d4d;
+  margin-bottom: 1rem;
+}
+
+.header__content p {
+  font-size: 1.2rem;
+  color: #737373;
+  line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .header__content h1 {
+    font-size: 3rem;
+  }
+
+  .header__content > div {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__container {
+    display: block;
+  }
+
+  .header__content {
+    justify-content: center;
+    padding: 2rem;
+  }
+
+  .header__content > div {
+    max-width: 90%;
+    padding: 2rem;
+  }
+
+  .header__content h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .header__content p {
+    font-size: 1rem;
+    text-align: center;
+  }
 }
