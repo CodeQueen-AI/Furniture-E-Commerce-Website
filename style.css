@@ -52,3 +52,90 @@ body {
   cursor: pointer;
   color: #171717;
 }
+
+/* Hero Section */
+/* 
+.header__container {
+  display: grid;
+  overflow: hidden;
+}
+
+.header__image {
+  grid-area: 1/1/2/2;
+}
+
+.header__image img {
+  max-width: 900px;
+  margin-left: auto;
+}
+
+.header__content {
+  grid-area: 1/1/2/2;
+  display: flex;
+  align-items: center;
+}
+
+.header__content > div {
+  max-width: 500px;
+  padding: 4rem 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: var(--header-font);
+  color: var(--primary-color);
+}
+
+.header__content p {
+  font-size: 1.2rem;
+  color: var(--text-light);
+} */
+
+
+/* Header Container */
+.header__container {
+  display: grid;
+  overflow: hidden;
+}
+
+/* Header Image */
+.header__image {
+  grid-area: 1/1/2/2;
+}
+
+.header__image img {
+  max-width: 900px;
+  margin-left: auto;
+}
+
+/* Header Content */
+.header__content {
+  grid-area: 1/1/2/2;
+  display: flex;
+  align-items: center;
+}
+
+.header__content > div {
+  max-width: 500px;
+  padding: 4rem 1rem;
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent */
+  backdrop-filter: blur(10px);                /* Blur effect behind */
+}
+
+/* Header Text */
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Merriweather", serif;       /* Direct font */
+  color: #254d4d;                            /* Direct primary color */
+}
+
+.header__content p {
+  font-size: 1.2rem;
+  color: #737373;                            /* Direct light text color */
+}
