@@ -23,10 +23,13 @@ body {
 
 .logo {
   font-family: "Merriweather", serif;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 700;
-  color: #254D4D;
+  color: #254d4d;
+  text-decoration: none;
+  display: inline-block;  
 }
+
 
 .nav__links {
   display: flex;
