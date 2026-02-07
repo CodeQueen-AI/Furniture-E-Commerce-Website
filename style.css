@@ -11,10 +11,9 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-/* Navbar */
 .navbar {
   max-width: 1200px;
-  margin: auto;
+  margin: 10px auto 0;   
   padding: 1.2rem 1rem;
   display: flex;
   align-items: center;
@@ -23,18 +22,18 @@ body {
 
 .logo {
   font-family: "Merriweather", serif;
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 700;
   color: #254d4d;
   text-decoration: none;
   display: inline-block;  
 }
 
-
 .nav__links {
   display: flex;
   gap: 3rem;
   list-style: none;
+  margin-left: -100px;  
 }
 
 .nav__links a {
