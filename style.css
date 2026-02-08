@@ -114,16 +114,54 @@ nav {
   transform: translateY(0);
 }
 
-/* .nav__links a {
-  font-weight: 500;
-  color: var(--white);
-} */
+.nav__links a{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
 
+.nav__links a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
 
+.nav__links a:hover::after{
+  width: 100%;
+}
 
 .nav__search {
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .header__container {
   display: grid;
