@@ -207,7 +207,6 @@ nav {
 }
 
 .benefits__card {
-  background: var(--extra-light);
   padding: 2rem;
   border-radius: 10px;
   display: flex;
