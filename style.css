@@ -579,40 +579,14 @@ nav {
 .blog__details span {
   width: fit-content;
   font-size: 0.8rem;
-  color: var(--primary-color);
+  color: #254d4d;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .blog__details span:hover {
-  color: var(--secondary-color);
+  color: #023535;
 } 
-/* Small side button */
-.read-btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;          /* smaller size */
-  background-color: var(--primary-color);
-  color: var(--white);
-  border: 2px solid var(--white);
-  font-weight: 600;
-  font-size: 0.85rem;
-  text-align: center;
-  cursor: pointer;
-  border-radius: 0;              /* rectangle shape */
-  transition: all 0.3s ease;
-  white-space: nowrap;
-  align-self: flex-end;          /* align button to right */
-  margin-top: 0.5rem;
-}
-
-.read-btn:hover {
-  background-color: var(--white);
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-
-
-
 
 
 
