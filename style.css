@@ -550,7 +550,6 @@ nav {
 .choose__image img {
   max-width: 500px;
   margin: auto;
-  border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
