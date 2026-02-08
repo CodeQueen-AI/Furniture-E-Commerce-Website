@@ -239,8 +239,32 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
+/* Banner Image Section */
+.banner__1 {
+  background-color: var(--text-light);
+}
 
+.banner__1__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
 
+.banner__1__container .icon {
+  display: grid;
+  gap: 0.5rem;
+  text-align: center;
+  color: var(--text-dark);
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.banner__1__container img {
+  width: 40px;
+  margin: auto;
+}
 
 
 
