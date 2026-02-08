@@ -602,6 +602,50 @@ nav {
   opacity: 1;
 }
 
+/* Best Seller */
+.seller__nav,
+.product__nav {
+  font-size: 2rem;
+  color: var(--text-dark);
+  cursor: pointer;
+}
+
+.seller__nav span,
+.product__nav span {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.seller__nav span:hover,
+.product__nav span:hover {
+  color: var(--primary-color);
+}
+
+.seller__grid,
+.product__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+
+.seller__card {
+  cursor: pointer;
+}
+
+.seller__card__details {
+  padding: 1rem 0;
+  background-color: var(--text-light);
+  text-align: center;
+}
+
+.seller__card__details .price {
+  font-size: 0.8rem;
+}
+
+.seller__card__details .price span {
+  color: var(--primary-color);
+}
+
 
 
 
