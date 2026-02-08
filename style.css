@@ -241,7 +241,7 @@ nav {
 
 /* Banner Image Section */
 .banner__1 {
-  background-color: rgb(202, 200, 200);
+  background-color: rgb(239, 233, 233);
 }
 
 .banner__1__container {
@@ -262,7 +262,7 @@ nav {
 }
 
 .banner__1__container img {
-  width: 40px;
+  width: 70px;
   margin: auto;
 }
 
