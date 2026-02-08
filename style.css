@@ -114,10 +114,12 @@ nav {
   transform: translateY(0);
 }
 
-.nav__links a {
+/* .nav__links a {
   font-weight: 500;
   color: var(--white);
-}
+} */
+
+
 
 .nav__search {
   display: none;
