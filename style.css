@@ -614,26 +614,22 @@ nav {
 
 
 /* Products */
-.seller__nav,
-.product__nav {
+.seller__nav{
   font-size: 2rem;
   color: var(--text-dark);
   cursor: pointer;
 }
 
-.seller__nav span,
-.product__nav span {
+.seller__nav span{
   cursor: pointer;
   transition: 0.3s;
 }
 
-.seller__nav span:hover,
-.product__nav span:hover {
+.seller__nav span:hover{
   color: var(--primary-color);
 }
 
-.seller__grid,
-.product__grid {
+.seller__grid{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
@@ -645,7 +641,7 @@ nav {
 
 .seller__card__details {
   padding: 1rem 0;
-  background-color: var(--text-light);
+  background-color: rgb(245, 237, 237);
   text-align: center;
 }
 
