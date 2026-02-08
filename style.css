@@ -461,6 +461,30 @@ nav {
   border-radius: 5px;
 }
 
+/* Deals Section */
+.deals__container {
+  display: grid;
+  gap: 2rem;
+}
+
+.deals__card span {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.deals__card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.deals__card p {
+  color: var(--text-light);
+}
+
+
 
 
 
