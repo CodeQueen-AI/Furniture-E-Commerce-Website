@@ -405,8 +405,60 @@ nav {
   border-color: #ffffff;  
 }
 
+/* Design2 Section */
+.experience__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
 
+.experience__image img {
+  max-width: 500px;
+  border-radius: 5px;
+}
 
+.experience__description {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: var(--primary-color);
+}
+
+.experience__features {
+  margin: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 3rem;
+}
+
+.experience__col h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.experience__col p {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.experience__content button {
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  outline: none;
+  border: 2px solid var(--primary-color);
+  background-color: var(--white);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.experience__content button:hover {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
 
 
 
