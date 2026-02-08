@@ -554,6 +554,39 @@ nav {
 }
 
 
+/* Blog Section */
+.blog__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.blog__details {
+  display: grid;
+  gap: 0.5rem;
+  color: var(--text-dark);
+}
+
+.blog__details p {
+  font-size: 0.8rem;
+}
+
+.blog__details h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.blog__details span {
+  width: fit-content;
+  font-size: 0.8rem;
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.blog__details span:hover {
+  color: var(--secondary-color);
+}
 
 
 
