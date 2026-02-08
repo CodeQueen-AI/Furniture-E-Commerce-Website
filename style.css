@@ -387,6 +387,23 @@ nav {
   color: var(--text-light);
 }
 
+.btn {
+  background-color: #ffffff;      
+  color: #254D4D;              
+  border: 2px solid #254D4D;     
+  padding: 0.8rem 2rem;       
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0;            
+}
+
+.btn:hover {
+  background-color: #254D4D;      
+  color: #ffffff;                
+  border-color: #ffffff;  
+}
 
 
 
