@@ -521,6 +521,88 @@ nav {
   margin-bottom: 2rem;
 }
 
+/* Craft Section */
+.craft__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.craft__container .section__subheader {
+  margin-bottom: 2rem;
+}
+
+.craft__image {
+  position: relative;
+  isolation: isolate;
+}
+
+.craft__image::before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #ebf1f1;
+  border-radius: 15px;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.craft__image:hover::before {
+  height: 80%;
+}
+
+.craft__image__content {
+  padding-bottom: 2rem;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.craft__image__content img {
+  margin-bottom: 1rem;
+  max-width: 250px;
+  margin: auto;
+}
+
+.craft__image__content p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.craft__image__content h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.craft__image:hover .craft__image__content {
+  transform: translateY(-2rem);
+}
+
+.craft__image a {
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translate(-50%, 50%);
+  padding: 0 7px;
+  font-size: 1.75rem;
+  color: var(--white);
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.craft__image:hover a {
+  opacity: 1;
+}
+
+
 
 
 
@@ -669,86 +751,6 @@ nav {
 
 
 
-/* Product Section */
-.craft__container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 2rem;
-  align-items: center;
-}
-
-/* .craft__container .section__subheader {
-  margin-bottom: 2rem;
-} */
-
-.craft__image {
-  position: relative;
-  isolation: isolate;
-}
-
-.craft__image::before {
-  position: absolute;
-  content: "";
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background-color: #ebf1f1;
-  border-radius: 15px;
-  transition: 0.3s;
-  z-index: -1;
-}
-
-.craft__image:hover::before {
-  height: 80%;
-}
-
-.craft__image__content {
-  padding-bottom: 2rem;
-  text-align: center;
-  transition: 0.3s;
-}
-
-.craft__image__content img {
-  margin-bottom: 1rem;
-  max-width: 250px;
-  margin: auto;
-}
-
-.craft__image__content p {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--text-dark);
-}
-
-.craft__image__content h4 {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--text-dark);
-}
-
-.craft__image:hover .craft__image__content {
-  transform: translateY(-2rem);
-}
-
-.craft__image a {
-  position: absolute;
-  left: 50%;
-  bottom: 10px;
-  transform: translate(-50%, 50%);
-  padding: 0 7px;
-  font-size: 1.75rem;
-  color: var(--white);
-  background-color: var(--primary-color);
-  border-radius: 100%;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-  opacity: 0;
-  transition: 0.3s;
-}
-
-.craft__image:hover a {
-  opacity: 1;
-}
 
 
 
