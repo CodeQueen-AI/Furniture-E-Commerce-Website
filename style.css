@@ -239,84 +239,9 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
-/* Banner Image Section
-.banner__1 {
-  background-color: rgb(239, 233, 233);
-}
-
-.banner__1__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.banner__1__container .icon {
-  display: grid;
-  gap: 0.5rem;
-  text-align: center;
-  color: var(--text-dark);
-  font-size: 0.8rem;
-  cursor: pointer;
-}
-
-.banner__1__container img {
-  width: 70px;
-  margin: auto;
-} */
-
-
-
-/* 
-
-/* Banner Image Section 
-.banner__1 {
-  background-color: rgb(243, 237, 237);
-}
-
-.banner__1__container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
-  flex-wrap: wrap;
-}
-
-.banner__1__container .icon {
-  display: grid;
-  gap: 0.5rem;
-  text-align: center;
-  color: var(--text-dark);
-  font-size: 0.8rem;
-  cursor: pointer;
-  transition: transform 0.3s ease;
-}
-
-.banner__1__container .icon img {
-  width: 70px;
-  margin: auto;
-  transition: filter 0.3s ease;
-}
-
-/* Hover Effect 
-.banner__1__container .icon:hover img {
-  filter: invert(40%) sepia(100%) saturate(5000%) hue-rotate(200deg); 
-  /* This turns the image blue 
-  transform: translateY(-5px); 
-}
-
-
-
-
-
- */
-
-
 /* Banner Image Section */
 .banner__1 {
   background-color: rgb(239, 233, 233);
-  padding: 2rem 0;
 }
 
 .banner__1__container {
@@ -343,20 +268,20 @@ nav {
   transition: filter 0.3s ease, transform 0.3s ease;
 }
 
-/* Hover Effect - Option 1: #254d4d */
 .banner__1__container .icon:hover img {
   filter: invert(25%) sepia(50%) saturate(500%) hue-rotate(160deg);
   transform: translateY(-5px);
 }
 
-/* Hover Effect - Option 2: Dark Green (#1a3a1a) */
-/* To use dark green instead, replace the filter with this: */
-/*
-.banner__1__container .icon:hover img {
-  filter: invert(20%) sepia(70%) saturate(300%) hue-rotate(90deg);
-  transform: translateY(-5px);
-}
-*/
+
+
+
+
+
+
+
+
+
 
 
 
