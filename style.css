@@ -139,30 +139,7 @@ nav {
   display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Hero Section */
 .header__container {
   display: grid;
   overflow: hidden;
@@ -202,6 +179,29 @@ nav {
   font-size: 1.2rem;
   color: var(--text-light);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .deals__container {
   display: grid;
