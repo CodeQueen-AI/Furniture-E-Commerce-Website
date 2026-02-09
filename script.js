@@ -9,17 +9,17 @@ menuBtn.addEventListener("click", () => {
 window.addEventListener("load", () => {
 
   // HERO animation
-  motion.animate(".header__content h1", {
+  Motion.animate(".header__content h1", {
     opacity: [0, 1],
     y: [60, 0],
   }, { duration: 1 });
 
-  motion.animate(".header__content p", {
+  Motion.animate(".header__content p", {
     opacity: [0, 1],
     y: [40, 0],
   }, { delay: 0.3, duration: 1 });
 
-  motion.animate(".header__image img", {
+  Motion.animate(".header__image img", {
     opacity: [0, 1],
     scale: [0.8, 1],
   }, { duration: 1.2 });
@@ -33,7 +33,7 @@ window.addEventListener("load", () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
-        motion.animate(entry.target, {
+        Motion.animate(entry.target, {
           opacity: [0, 1],
           y: [60, 0],
         }, { duration: 0.8 });
@@ -50,10 +50,10 @@ window.addEventListener("load", () => {
   document.querySelectorAll(".product__card, .craft__image, .benefits__card")
   .forEach((card) => {
     card.addEventListener("mouseenter", () => {
-      motion.animate(card, { scale: 1.05 }, { duration: 0.3 });
+      Motion.animate(card, { scale: 1.05 }, { duration: 0.3 });
     });
     card.addEventListener("mouseleave", () => {
-      motion.animate(card, { scale: 1 }, { duration: 0.3 });
+      Motion.animate(card, { scale: 1 }, { duration: 0.3 });
     });
   });
 
